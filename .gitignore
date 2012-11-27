@@ -1,0 +1,6 @@
+*.db
+*.brn
+*.trn
+*.sqlite
+*.patch
+*.diff

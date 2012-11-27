@@ -1,0 +1,17 @@
+#!/usr/bin/env lua
+
+local cli = require "cliargs"
+cli:set_name("hlagh")
+cli:add_option("-v, --version", "Print version and exits")
+cli:add_option("-s, --stats", "Print statistics about the brain")
+cli:add_option("-l, --learn=STRING", "Learn from STRING", nil)
+local args = cli:parse_args()
+
+if not args then
+  os.exit()
+end
+
+if args["v"] then
+  print("0.0.1")
+  os.exit()
+end
