@@ -1,14 +1,14 @@
 # Threading
  * When training, tokenize in a separate thread, queueing the replies back
- * http://sqlite.org/c3ref/enable_shared_cache.html
+ * <http://sqlite.org/c3ref/enable_shared_cache.html>
  * Find a threading library
     * Lanes looks nice, but has some issues on Linux
     * Ray looks promising, but isn't ready yet
-    * llthreads works, but is not ideal, can only create new thrads
+    * llthreads works, but is not ideal, can only create new threads
       from code strings or files
 
-# lpeg_utf8 (https://gist.github.com/2958879)
- * Wait for it to be released to LuaRocks
+# `lpeg_utf8` (<https://gist.github.com/2958879>)
+ * Wait for it to be released to LuaRocks or merged into lpeg
 
 # Documentation
  * Use ldoc
@@ -23,7 +23,7 @@
 
 # Create/drop indexes when needed
 
-# Progress reporting for flush_cache()
+# Progress reporting for `flush_cache()`
 
 # Add command-line interface
  * option parsing
